@@ -39,6 +39,7 @@ jobs:
         shell: bash
         run: |
           cd test
+          lua luarocks.lua
           lua hello.lua
           lua testsrvr.lua > /dev/null &
           lua testclnt.lua

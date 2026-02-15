@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - ci-linux-arm64
   pull_request:
 
 jobs:
